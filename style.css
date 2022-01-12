@@ -21,9 +21,19 @@ body {
     display: flex;
     background-color: #1F2937;
     align-items: center;
-    /* padding: 50px; */
+    padding: 50px;
     gap: 100px;
 
+}
+
+.fire-man {
+    width: 200px;
+    height: auto;
+}
+
+.fire-spin{
+    width: 150px;
+    height: auto;
 }
 
 .top-sign, .call-to-button {
@@ -68,7 +78,7 @@ ul {
 
 .info {
     text-align: center;
-    /* padding: 50px; */
+    padding: 50px;
 }
 
 .info-header {
@@ -79,11 +89,25 @@ ul {
 
 .boxes {
     display: flex;
+    gap: 20px;
+    
 }
+
+.fire-illustration {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    
+}
+
+.fire-illustration .text {
+    text-align: center;
+}
+
 
 .testimonial {
     background-color: #E5E7EB;
-    /* padding: 70px; */
+    padding: 70px;
 }
 
 .qoute {
@@ -119,7 +143,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    padding: 20px;
 }
 
 html, body {
