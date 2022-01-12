@@ -1,33 +1,51 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: Roboto, sans-serif;
+    min-height: 100vh;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 0 16px;
+    padding: 16px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 .hero {
     display: flex;
-    flex-direction: row;
     background-color: #1F2937;
+    align-items: center;
+    /* padding: 50px; */
+    gap: 100px;
+
 }
 
-button {
+.top-sign, .call-to-button {
     background: #3882F6;
     color: white;
     width: 100px;
-    border: 0;
     border-radius: 5px;
 }
+
+.top-sign {
+    border: 0;
+    margin-top: 10px;
+}
+
+.call-to-button {
+    border: 1px solid white
+}
+
 
 .header, .hero, .footer {
     background-color: #1F2937;
     color: white;
-
 }
 
 .header-text{
@@ -45,30 +63,52 @@ ul {
     display: flex;
     margin: 0;
     padding: 0;
-    gap: 8px;
+    gap: 16px;
 }
 
 .info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    /* padding: 50px; */
 }
 
 .info-header {
     font-size: 36px;
     font-weight: 900;
-}
-
-.testimonial {
-    background-color: #E5E7EB;
+    margin-bottom: 50px;
 }
 
 .boxes {
     display: flex;
 }
 
+.testimonial {
+    background-color: #E5E7EB;
+    /* padding: 70px; */
+}
 
+.qoute {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.sub-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.call-to-action {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: #3882F6;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+
+}
 
 a {
     text-decoration: none;
@@ -79,4 +119,9 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    
+}
+
+html, body {
+    margin: 0;
 }
